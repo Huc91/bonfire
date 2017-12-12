@@ -5,3 +5,26 @@ body {
 .App {
   color: #FAFAFA;
 }
+
+.title {
+  text-transform: uppercase;
+}
+
+.Fire {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.Flame, .Log{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.Flame > img, .Log > img {
+  width: 33%;
+  
+}

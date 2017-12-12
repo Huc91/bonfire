@@ -14,5 +14,17 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "description": "A bonfire simulation React App.</br> Users should gather around a digital bonifire.</br>",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Huc91/bonfire.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Huc91/bonfire/issues"
+  },
+  "homepage": "https://github.com/Huc91/bonfire#readme"
 }
