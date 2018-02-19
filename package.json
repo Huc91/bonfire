@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-draggable": "^3.0.4",
+    "react-dragula": "^1.1.17"
   },
   "devDependencies": {
     "react-scripts": "1.0.17"

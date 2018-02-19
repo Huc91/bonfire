@@ -136,18 +136,13 @@ class Fire extends Component {
     // Add the target element's id to the data transfer object
     ev.dataTransfer.setData("text", ev.target.id);
     var img = new Image();
-    img.src = './img/log.svg';
+    img.src = './img/flame.svg';
     ev.dataTransfer.setDragImage(img, 10, 10);
-    this.setState(
-        {fire: true
-    );
+    this.setState({fire: 'yo'});
   }
 
   dragE(ev){
     console.log('drag end');
-    this.setState(
-      {fire: false }
-    );
   }
 
   render() {
